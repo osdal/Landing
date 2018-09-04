@@ -18,7 +18,7 @@
 			totalValue.innerHTML = 0;
 			total = 0;
 		} else {
-			total = (daysSum + personsSum) * 4000;
+			total = (daysSum + personsSum) * 4000 * place.options[place.selectedIndex].value;
 		}
 		if (restDays.value == '') {
 			totalValue.innerHTML = 0;
@@ -39,7 +39,7 @@
 			totalValue.innerHTML = 0;
 			total = 0;
 		} else {
-			total = (daysSum + personsSum) * 4000;
+			total = (daysSum + personsSum) * 4000 * place.options[place.selectedIndex].value;
 		}
 		if (persons.value == '') {
 			totalValue.innerHTML = 0;
